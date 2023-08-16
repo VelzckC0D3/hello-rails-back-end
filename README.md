@@ -104,10 +104,14 @@ First, you need to set up gems & create the database and seed it with the follow
   rails db:migrate
   rails db:seed
 ```
+
 ```sh
-Then, you need to run the server with port 3001, that way, the front-end part with react will be able to consume the API with the following command:
-  rails s -p 3001
+Then, you need to run the server with port 3001, that way, the front-end part with react will be able to consume the API
+  with the following command: rails s -p 3001
 ```
+
+After executing it in the required port, you need to open the [front-end repository](https://github.com/VelzckC0D3/hello-react-front-end) and run npm run start
+
 
 ### Deployment
 
